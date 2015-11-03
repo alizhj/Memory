@@ -1,0 +1,103 @@
+.clearfix {
+	clear:both;
+}
+
+body, button {
+	height: auto;
+	font-family: 'Carter One', cursive;
+}
+
+.playarea {
+	width: 1000px;
+	float:left;
+}
+
+.scoreboard {
+	float:left;
+	width: 300px;
+	height: 616px;
+}
+
+.luigi {
+	height:222px;
+	width:auto;
+	background-image: url('img/toadLuigi.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top:252px;
+}
+
+.name2, .points2 {
+	margin-top:-20px;
+}
+
+.card, .active, .front, .back {
+	width:140px;
+	height: 140px;
+	padding:0.7%;
+	float:left;
+
+}
+
+#panel {
+	margin-top: 50px;
+	padding-left: 20px;
+	float:left;
+}
+
+img {
+	width:145px;
+	border: 1px solid red;
+	box-shadow: 3px 3px 3px grey;
+}
+
+h1 {
+	padding-left: 20px;
+	float:left;
+}
+
+.active {
+	pointer-events: none;
+}
+
+.theEnd, .theBeginning{
+	width:500px;
+	height: 350px;
+	border: 2px solid red;
+	top: 144px;
+	left: 217px;
+	position:fixed;
+	background-color: white;
+	z-index: 2;
+	background-image: url('img/win.png');
+	background-repeat: no-repeat;
+	background-size: 36%;
+}
+
+.winner {
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 150px;
+	text-align: center;
+	line-height: 55px;
+}
+
+button{
+	margin-top: 30px;
+	margin-left:219px;
+	background-color: red;
+	height: 60px;
+}
+
+input {
+	margin-left:219px;
+	margin-bottom:10px;
+	height: 40px;
+}
+
+button, input {
+	border-radius: 15px;
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+}
